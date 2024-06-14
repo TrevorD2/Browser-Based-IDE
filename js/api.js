@@ -23,7 +23,6 @@ async function executeCode(){
                     content: editor.getValue(),
                 },
             ],
-            stdin: "123\n456", //INPUT STDIN LATER
         });
 
         return response;
